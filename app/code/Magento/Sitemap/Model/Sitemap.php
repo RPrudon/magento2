@@ -830,7 +830,6 @@ class Sitemap extends \Magento\Framework\Model\AbstractModel implements \Magento
      * @return void
      * @deprecated 100.1.5 Because the robots.txt file is not generated anymore,
      *             this method is not needed and will be removed in major release.
-     *
      * @see Nothing
      */
     protected function _addSitemapToRobotsTxt($sitemapFileName)
